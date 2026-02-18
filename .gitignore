@@ -1,0 +1,53 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+*.venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Datasets and raw image collections
+Dataset-Leaf/
+*.zip
+
+# Model weights and large checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training runs and outputs
+ActualModel/train/
+ActualModel/train/weights/
+my_model/train2/
+
+# Generated images / results
+*detected.jpg
+results.csv
+results.png
+train_batch*.jpg
+val_batch*.jpg
+labels.jpg
+confusion_matrix*.png
+Box*.png
+
+# Torch / Ultralytics caches
+runs/
+wandb/
